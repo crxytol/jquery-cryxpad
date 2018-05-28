@@ -139,6 +139,9 @@
                     e.stopPropagation();
                     buttonClik($(this));
                 });
+                /*
+                * remove bnt click
+                */
                 $(document).on("click",'#'+parametres.removeButtonId+'',function(e) {
                     debugger;
                     e.preventDefault();
